@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { FaLeaf, FaWater, FaBug, FaChartLine, FaCloudSun, FaNewspaper } from 'react-icons/fa'
+import { FaUser, FaEdit, FaSave, FaMapMarkerAlt, FaPhone, FaEnvelope, FaLock, FaSignOutAlt, FaLeaf, FaCalendarAlt, FaTractor } from 'react-icons/fa'
 import Link from 'next/link'
 import WeatherWidget from '@/components/WeatherWidget'
 
