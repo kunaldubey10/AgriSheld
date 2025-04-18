@@ -2,7 +2,17 @@
 
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { FaUser, FaEdit, FaSave, FaMapMarkerAlt, FaPhone, FaEnvelope, FaLock, FaSignOutAlt, FaLeaf, FaCalendarAlt, FaTractor } from 'react-icons/fa'
+import {
+  FaUser,
+  FaMapMarkerAlt,
+  FaEnvelope,
+  FaLeaf,
+  FaCloudSun,
+  FaNewspaper,
+  FaWater,
+  FaBug,
+  FaChartLine
+} from 'react-icons/fa'
 import Link from 'next/link'
 import WeatherWidget from '@/components/WeatherWidget'
 
@@ -133,8 +143,8 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-200"
           >
-            <div className="h-12 w-12 rounded-full bg-primary-100 flex items-center justify-center mb-4">
-              <FaLeaf className="h-6 w-6 text-primary-600" />
+            <div className="h-12 w-12 rounded-full bg-green-100 flex items-center justify-center mb-4">
+              <FaLeaf className="h-6 w-6 text-green-600" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-2">
               Crop Monitoring
@@ -150,8 +160,8 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-200"
           >
-            <div className="h-12 w-12 rounded-full bg-primary-100 flex items-center justify-center mb-4">
-              <FaWater className="h-6 w-6 text-primary-600" />
+            <div className="h-12 w-12 rounded-full bg-green-100 flex items-center justify-center mb-4">
+              <FaWater className="h-6 w-6 text-green-600" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-2">
               Water Management
@@ -167,8 +177,8 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-200"
           >
-            <div className="h-12 w-12 rounded-full bg-primary-100 flex items-center justify-center mb-4">
-              <FaBug className="h-6 w-6 text-primary-600" />
+            <div className="h-12 w-12 rounded-full bg-green-100 flex items-center justify-center mb-4">
+              <FaBug className="h-6 w-6 text-green-600" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-2">
               Pest Control
@@ -184,8 +194,8 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.5 }}
             className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-200"
           >
-            <div className="h-12 w-12 rounded-full bg-primary-100 flex items-center justify-center mb-4">
-              <FaChartLine className="h-6 w-6 text-primary-600" />
+            <div className="h-12 w-12 rounded-full bg-green-100 flex items-center justify-center mb-4">
+              <FaChartLine className="h-6 w-6 text-green-600" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-2">
               Market Analysis
@@ -198,4 +208,4 @@ export default function Home() {
       </div>
     </div>
   )
-} 
+}
