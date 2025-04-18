@@ -53,47 +53,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deployment
 
-### Deploying to Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
-
-1. Push your code to GitHub
-2. Go to [Vercel](https://vercel.com)
-3. Create a new project
-4. Import your GitHub repository
-5. Add your environment variables
-6. Deploy!
-
-### Deploying to GitHub Pages
-
-1. Install gh-pages:
-```bash
-npm install gh-pages --save-dev
-```
-
-2. Add these scripts to your package.json:
-```json
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d out"
-}
-```
-
-3. Update next.config.js:
-```javascript
-module.exports = {
-  output: 'export',
-  images: {
-    unoptimized: true,
-  },
-}
-```
-
-4. Deploy:
-```bash
-npm run deploy
-```
-
 ## Future Updates
 
 - Real-time monitoring using IoT devices
@@ -106,9 +65,6 @@ npm run deploy
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
